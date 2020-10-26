@@ -1,0 +1,97 @@
+
+.container {
+    margin-top: 70px;
+        background-color: rgb(248, 248, 248);
+        margin-left: 60px;
+        margin-right: 60px;
+        padding: 10px 30px;
+        display: flex;
+        flex-direction: column ;
+        justify-content: space-around
+   
+}
+.container h1{
+font-family: montserrat;
+color: grey;
+}
+
+.container h2 {
+    align-self: flex-end;
+    font-family: montserrat;
+color: grey;
+}
+
+.products{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    font-family: montserrat;
+}
+
+.product {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 15px 15px 15px;
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
+    flex-wrap: wrap;
+}
+.item {
+    display: flex;
+    width: 200px;
+    align-items: center;
+    justify-content: center;
+}
+.img-container{
+    display: flex;
+    justify-content: space-between;
+    width: 200px;
+}
+.image{
+    padding: 0 20px;
+}
+.item > img {
+    width:150px
+}
+.item >button {
+    width: 34px;
+    height: 34px;
+    margin: 5px;
+    border: 0pt transparent;
+    background-color: #efefef;
+    font-size: 18px;
+    outline: 0;
+    cursor: pointer;
+}
+.item >button:hover {
+    background-color: #dedfdf;
+    color:#c2bfbf
+  }
+.item > .qte {
+    height: 35px;
+    max-width: 75px;
+    border: 0pt transparent;
+    background-color: #efefef;
+    font-size: 18px;
+    color:#2CB1BC;
+    outline: 0;
+    padding: 5px;
+    margin: 5px;
+    text-align: center;
+}
+
+.icons{
+    width: 150px;
+    height: 150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.fa-heart:hover {
+    fill: #DA4567;
+  }
+
+.pink {
+    color: #f06292;
+}
